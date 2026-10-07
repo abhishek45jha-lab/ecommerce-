@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+env_site/
+
+# Django local state and uploaded user data
+*.sqlite3
+media/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
